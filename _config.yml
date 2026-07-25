@@ -1,0 +1,18 @@
+remote_theme           : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "default"
+locale                   : "zh-CN"
+title                    : "JxLiu"
+name                     : "JxLiu"
+description              : "金融科技方向学习者"
+url                      : "https://JxLiu006.github.io"
+repository               : "JxLiu006/JxLiu006.github.io"
+author:
+  name             : "JxLiu"
+  bio              : "金融科技方向学习者"
+  location         : "China"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/JxLiu006"
+plugins:
+  - jekyll-include-cache
