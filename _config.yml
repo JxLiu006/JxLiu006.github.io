@@ -6,6 +6,7 @@ name                     : "JxLiu"
 description              : "金融科技方向学习者"
 url                      : "https://JxLiu006.github.io"
 repository               : "JxLiu006/JxLiu006.github.io"
+
 author:
   name             : "JxLiu"
   bio              : "金融科技方向学习者"
@@ -14,5 +15,26 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/JxLiu006"
+
 plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
   - jekyll-include-cache
+
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
