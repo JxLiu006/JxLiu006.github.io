@@ -1,7 +1,7 @@
 remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default"
 locale                   : "zh-CN"
-title                    : "JxLiu"
+title                    : "Personal Website"
 name                     : "JxLiu"
 description              : "金融科技方向学习者"
 url                      : "https://JxLiu006.github.io"
